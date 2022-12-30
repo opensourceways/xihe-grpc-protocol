@@ -6,7 +6,7 @@ type FinetuneIndex struct {
 }
 
 type FinetuneInfo struct {
-	Duration int
+	Duration string
 	Status   string
 }
 
