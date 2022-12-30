@@ -135,7 +135,7 @@ func (c *FinetuneClient) SetFinetuneInfo(index *finetune.FinetuneIndex, info *fi
 			Id:       index.Id,
 			User:     index.User,
 			Status:   info.Status,
-			Duration: int32(info.Duration),
+			Duration: info.Duration,
 		},
 	)
 

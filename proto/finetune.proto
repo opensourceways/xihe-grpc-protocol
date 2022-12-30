@@ -8,7 +8,7 @@ message FinetuneInfo {
   string id               = 1;
   string user             = 2;
   string status           = 3;
-  int32  duration         = 4;
+  string duration         = 4;
 }
 
 message FinetuneResult {}

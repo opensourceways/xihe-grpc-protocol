@@ -168,7 +168,7 @@ func (t *finetuneServer) SetFinetuneInfo(ctx context.Context, v *protocol.Finetu
 
 	info := finetune.FinetuneInfo{
 		Status:   v.GetStatus(),
-		Duration: int(v.GetDuration()),
+		Duration: v.GetDuration(),
 	}
 
 	// Must return new(protocol.Result), or grpc will failed.
